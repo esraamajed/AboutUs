@@ -1,0 +1,447 @@
+* {
+  direction: rtl;
+  text-align: right;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 990px) {
+  .section-1 .img {
+    text-align: center;
+  }
+
+  .section-3 .Web {
+    text-align: center;
+  }
+
+  .section-3 .foter {
+    text-align: center;
+  }
+
+  .section-3 .card,
+  .card-title,
+  .card-body,
+  .card-text,
+  .who,
+  h4,
+  h3,
+  p {
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-2 .row,
+  img,
+  h1,
+  h6 {
+    text-align: center;
+    align-items: center;
+  }
+
+  .section-2 .foter {
+    text-align: center;
+  }
+
+  .section-1 .foter .btn {
+    display: none;
+  }
+
+  .section-1 .foter {
+    margin-top: 50px;
+  }
+
+  .section-8 .row .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 15%;
+  }
+
+  .section-9 .row .card {
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-10 img {
+    margin-top: 30px;
+  }
+
+  .seation-7 .row .card {
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* <!-- start the 1st section  --> */
+.section-1 {
+  background-image: url(../img/Group\ 4061.png);
+  background-position: right;
+  background-size: 100%;
+  width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--main-color);
+  font-size: 18px;
+  padding: 20px 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--transparent-color);
+}
+
+.navbar-light .btn {
+  width: 108px;
+  height: 38px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  color: white;
+  border: 1px solid white;
+  transition: 10s;
+}
+
+@media (max-width: 991px) {
+  .navbar-light .btn {
+    display: none;
+  }
+
+}
+
+.section-1 .img {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.container .row {
+  margin-top: 80px;
+}
+
+.container .row .group {
+  margin-top: 70px;
+
+}
+
+.container .row .group h1 {
+  font-size: 40px;
+  color: #9753A0;
+  line-height: 72px;
+}
+
+.container .row .group p {
+  color: #555555;
+  font-size: 20px;
+  line-height: 45px;
+
+}
+
+.container .row button {
+  width: 108px;
+  height: 38px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  color: white;
+  border: 1px solid white;
+}
+
+/* <!-- end the 1st section  --> */
+
+
+
+/* <!-- start the 2ed section  --> */
+.section-2 {
+  position: relative;
+  margin-top: 150px;
+}
+
+.section-2 .circle-1 {
+  position: absolute;
+  left: -115px;
+  bottom: 0;
+}
+
+.section-2 .circle {
+  position: absolute;
+  right: -205px;
+  top: -108px;
+}
+
+.section-2 .logo {
+  margin-bottom: 50px;
+}
+
+.section-2 h3 {
+  color: #3554A6;
+  margin-bottom: 20px;
+}
+
+.section-2 p {
+  color: #555555;
+  margin-bottom: 30px;
+}
+
+.section-2 .tv {
+  width: 65%;
+}
+
+
+/* <!-- end the 2ed section  --> */
+
+
+/* <!-- start the 3rd section  --> */
+
+.section-3 {
+  position: relative;
+  border-radius: 20%;
+  margin-top: 100px;
+  background-color: rgba(215, 214, 213, 0.2);
+  background-size: 100%;
+  margin-bottom: 100px;
+}
+
+.section-3 .Grid7 {
+  position: absolute;
+  top: -101px;
+}
+
+.section-3 .group {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container .row .btn-2 {
+  width: 130px;
+}
+
+.section-3 img {
+  margin-top: 50px;
+}
+
+/* <!-- end the 3rd section  --> */
+
+/* <!-- start the 4th section  --> */
+.section-4 {
+  padding: 0 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-4 h4 {
+  color: #9753A0;
+  margin-bottom: 20px;
+}
+
+.section-4 p {
+  color: #555555;
+  line-height: 2;
+  font-size: 22px;
+}
+
+
+/* <!-- end the 4th section  --> */
+
+
+/* <!-- start the 5th section  --> */
+.section-5 {
+  padding: 0 70px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section-5 .card-title {
+  color: #9753A0;
+  margin-top: 15px;
+}
+
+.section-5 .header h1 {
+  padding: 30px 0 0 0;
+  margin-bottom: 10px;
+  color: #9753A0;
+}
+
+.section-5 .header p {
+  font-size: 20px;
+  color: #3554A6;
+}
+
+.section-5 .card {
+  padding: 0;
+  transition: 1s;
+  background-color: white;
+  border: none;
+
+}
+
+.section-5 .card-body {
+
+  padding: 0.5rem;
+}
+
+.section-5 .card:hover {
+  background-color: #edecec;
+}
+
+.section-5 .foter {
+  text-align: center;
+}
+
+.section-5 button {
+  width: 150px;
+  height: 38px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  color: white;
+  border: 1px solid white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* <!-- end the 5th section  --/> */
+/* <!-- start the 6th section  --> */
+.seation-6 {
+  padding: 100px;
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.seation-6 h4 {
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.seation-6 p {
+  color: #fff;
+  line-height: 2;
+  font-size: 22px;
+}
+
+
+/* <!-- end the 6th section  --> */
+
+/* <!-- start the 7th section  --> */
+.seation-7 {
+  position: relative;
+
+}
+
+.seation-7 .ciercle-2 {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+}
+
+.seation-7 .card {
+  border: none;
+}
+
+.seation-7 p {
+  font-size: 15px;
+  color: #5d5d5da8;
+}
+
+
+/* <!-- end the 7th section  --> */
+/* <!-- start the 8th section  --> */
+.seation-8 {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.seation-8 .Grid-3 {
+  position: absolute;
+  right: 25%;
+  top: -38px;
+}
+
+.seation-8 h3 {
+  color: #9753A0;
+}
+
+.seation-8 .row {
+  margin-top: 50px;
+}
+
+.seation-8 ul {
+  margin-bottom: 60px;
+}
+
+.seation-8 li {
+  list-style-type: circle;
+  color: #5d5d5de4;
+  margin-bottom: 30px;
+}
+
+.seation-8 .Subtraction-6 {
+  position: absolute;
+}
+
+/* <!-- end the 8th section  --> */
+/* start footer section */
+.footer {
+  position: relative;
+}
+
+.grid {
+  position: absolute;
+}
+
+.footer .Logo {
+  margin-top: 250px;
+}
+
+.footer .row {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.footer .component {
+  position: absolute;
+}
+
+.footer p {
+  color: #555555;
+}
+
+.socialmedia {
+  padding: 0;
+}
+
+.socialmedia ul {
+  margin: 0
+}
+
+.socialmedia ul li {
+  display: inline-block;
+}
+
+.socialmedia ul li a {
+
+  color: #9753A0;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.footer ul {
+  text-align: end;
+}
+
+.footer .copyright {
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  height: 50px;
+  margin-top: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.footer .copyright p {
+  color: #fff;
+  transform: translateY(50%);
+}
+
+/* end footer section */

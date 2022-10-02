@@ -1,0 +1,305 @@
+* {
+  direction: rtl;
+  text-align: right;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 990px) {
+
+  .section-1 .img,
+  h1,
+  p {
+    text-align: center;
+  }
+
+  .section-3 .img {
+    text-align: center;
+  }
+
+  .section-4 .row,
+  img,
+  h1,
+  h6 {
+    text-align: center;
+    align-items: center;
+  }
+
+  .section-4 .foter {
+    text-align: center;
+  }
+
+  .section-5 .row,
+  img,
+  h1,
+  h6 {
+    text-align: center;
+    align-items: center;
+  }
+
+  .section-5 .img {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .section-5 .body {
+    margin-bottom: 60px;
+    margin-top: 10px;
+  }
+
+}
+
+/* <!-- start the 1st section  --> */
+.section-1 {
+  background-image: url(../img/Group\ 4061.png);
+  background-position: right;
+  background-size: 100%;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--main-color);
+  font-size: 18px;
+  padding: 20px 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--transparent-color);
+}
+
+.navbar-light .btn {
+  width: 108px;
+  height: 38px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  color: white;
+  border: 1px solid white;
+  transition: 10s;
+}
+
+@media (max-width: 991px) {
+  .navbar-light .btn {
+    display: none;
+  }
+
+}
+
+.section-1 .img {
+  margin-top: 100px;
+}
+
+.container .row {
+  margin-top: 80px;
+}
+
+.container .row .group {
+  margin-top: 70px;
+
+}
+
+.container .row .group h1 {
+  font-size: 40px;
+  color: #9753A0;
+  line-height: 72px;
+}
+
+.container .row .group p {
+  color: #555555;
+  font-size: 20px;
+  line-height: 45px;
+
+}
+
+/* <!-- end the 1st section  --> */
+
+/* <!-- start the 2ed section  --> */
+.section-2 p {
+  font-size: 25px;
+  color: #3554A6;
+  padding: 0 190px;
+}
+
+.section-2 {
+  margin-bottom: 0;
+}
+
+/* <!-- end the 2ed section  --> */
+
+/* <!-- start the 3rd section  --> */
+.section-3 {
+  margin-bottom: 100px;
+}
+
+.section-3 .img {
+  margin-top: 100px;
+  width: 1005;
+}
+
+.container .row {
+  margin-top: 80px;
+}
+
+.container .row .group {
+  margin-top: 70px;
+
+}
+
+.container .row .group h1 {
+  font-size: 40px;
+  color: #9753A0;
+  line-height: 72px;
+}
+
+.container .row .group p {
+  color: #55555588;
+  font-size: 17px;
+  line-height: 25px;
+
+}
+
+/* <!-- end the 3rd section  --> */
+
+
+/* <!-- start the 4th section  --> */
+.section-4 {
+  padding: 80px 0 0;
+  background-color: #55555509;
+  position: relative;
+  margin-top: 150px;
+}
+
+.section-4 .circle-1 {
+  position: absolute;
+  left: -115px;
+  bottom: 0;
+}
+
+.section-4 .circle {
+  position: absolute;
+  right: -205px;
+  top: -108px;
+}
+
+.section-4 .logo {
+  margin-bottom: 50px;
+}
+
+.section-4 h3 {
+  color: #9753A0;
+  margin-bottom: 20px;
+}
+
+.section-4 p {
+  color: #555555;
+  margin-bottom: 30px;
+  padding: 0 100px;
+}
+
+.section-4 .tv {
+  margin-bottom: 100px;
+  width: 65%;
+}
+
+
+/* <!-- end the 4th section  --> */
+/* <!-- start the 5th section  --> */
+
+
+
+.section-5 {
+  background-image: url(../img/bg-2.png);
+  background-size: cover;
+  margin-bottom: 100px;
+
+}
+
+.section-5 .row {
+  margin-top: 0;
+}
+
+.section-5 h1 {
+  color: #F7C035;
+}
+
+.section-5 img {
+  margin-top: 70px;
+}
+
+.section-5 .body {
+  margin-top: 100px;
+}
+
+.section-5 p {
+  font-size: 20px;
+  color: white;
+  line-height: 2;
+}
+
+
+/* <!-- end the 5th section  --> */
+
+/* start footer section */
+.footer {
+  position: relative;
+}
+
+.grid {
+  position: absolute;
+}
+
+.footer .Logo {
+  margin-top: 250px;
+}
+
+.footer .row {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.footer .component {
+  position: absolute;
+}
+
+.footer p {
+  color: #555555;
+}
+
+.socialmedia {
+  padding: 0;
+}
+
+.socialmedia ul {
+  margin: 0
+}
+
+.socialmedia ul li {
+  display: inline-block;
+}
+
+.socialmedia ul li a {
+
+  color: #9753A0;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.footer ul {
+  text-align: end;
+}
+
+.footer .copyright {
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  height: 50px;
+  margin-top: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.footer .copyright p {
+  color: #fff;
+  transform: translateY(50%);
+}
+
+/* end footer section */

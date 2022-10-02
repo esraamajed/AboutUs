@@ -1,0 +1,123 @@
+* {
+  direction: rtl;
+  text-align: right;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 990px) {
+  .section-1 .col-lg-2.col-md-3.col-sm-6 {
+    text-align: center;
+  }
+}
+
+/* <!-- start the 1st section  --> */
+.section-1 {
+  background-image: url(../img/Group\ 4061.png);
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--main-color);
+  font-size: 18px;
+  padding: 20px 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--transparent-color);
+}
+
+.navbar-light .btn {
+  width: 108px;
+  height: 38px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  color: white;
+  border: 1px solid white;
+  transition: 10s;
+}
+
+@media (max-width: 991px) {
+  .navbar-light .btn {
+    display: none;
+  }
+
+}
+
+.section-1 h1 {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  color: #9753A0;
+}
+
+.section-1 img {
+  margin-bottom: 20px;
+}
+
+/* <!-- end the 1st section  --> */
+
+/* start footer section */
+.footer {
+  position: relative;
+}
+
+.grid {
+  position: absolute;
+}
+
+.footer .Logo {
+  margin-top: 250px;
+}
+
+.footer .row {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.footer .component {
+  position: absolute;
+}
+
+.footer p {
+  color: #555555;
+}
+
+.socialmedia {
+  padding: 0;
+}
+
+.socialmedia ul {
+  margin: 0
+}
+
+.socialmedia ul li {
+  display: inline-block;
+}
+
+.socialmedia ul li a {
+
+  color: #9753A0;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.footer ul {
+  text-align: end;
+}
+
+.footer .copyright {
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  height: 50px;
+  margin-top: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.footer .copyright p {
+  color: #fff;
+  transform: translateY(50%);
+}
+
+/* end footer section */

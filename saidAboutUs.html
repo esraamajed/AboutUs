@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Clinet.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="js/main.js">
+    <title>Clinet</title>
+</head>
+
+
+<body>
+
+<!-- /* start navbar section */ -->
+<div id="navbar_contner_id"></div>
+<!-- /* end navbar section */ -->
+
+
+
+
+
+<!-- /* start footer section */ -->
+<div id="footer_contner_id"></div>
+<!-- /* end footer section */ -->
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js "></script>
+<script>
+
+    //  load footer component
+    $(function(){
+          $("#navbar_contner_id").load("components/navbar.html"); 
+        });
+    $(function(){
+        $("#footer_contner_id").load("components/footer_section.html"); 
+      });
+  
+  
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,191 @@
+* {
+  direction: rtl;
+  text-align: right;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 990px) {
+
+  .section-1 .img,
+  p,
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .section-1 .foter .btn {
+    display: none;
+  }
+
+  .section-1 .foter {
+    margin-top: 50px;
+  }
+
+}
+
+/* <!-- start the 1st section  --> */
+.section-1 {
+  background-image: url(../img/Group\ 4061.png);
+  background-position: right;
+  background-size: 100%;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--main-color);
+  font-size: 18px;
+  padding: 20px 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--transparent-color);
+}
+
+.navbar-light .btn {
+  width: 108px;
+  height: 38px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  color: white;
+  border: 1px solid white;
+  transition: 10s;
+}
+
+@media (max-width: 991px) {
+  .navbar-light .btn {
+    display: none;
+  }
+
+}
+
+.container .row {
+  margin-top: 80px;
+}
+
+.container .row .group {
+  margin-top: 70px;
+
+}
+
+.container .row .group h1 {
+  font-size: 40px;
+  color: #9753A0;
+  line-height: 72px;
+}
+
+.container .row .group p {
+  color: #555555;
+  font-size: 20px;
+  line-height: 45px;
+
+}
+
+.container .row button {
+  width: 108px;
+  height: 38px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  color: white;
+  border: 1px solid white;
+}
+
+/* <!-- end the 1st section  --> */
+
+
+/* <!-- start the 2ed section  --> */
+
+.section-2 {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.section-2 .container {
+  margin-top: 100px;
+}
+
+.section-2 .card {
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: 1s;
+  background-color: white;
+  border: 1px solid #dcd6d6;
+
+
+}
+
+
+.section-2 .card:hover {
+
+  color: white;
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+
+}
+
+
+/* <!-- end the d section  --> */
+
+/* start footer section */
+.footer {
+  position: relative;
+}
+
+.grid {
+  position: absolute;
+}
+
+.footer .Logo {
+  margin-top: 250px;
+}
+
+.footer .row {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.footer .component {
+  position: absolute;
+}
+
+.footer p {
+  color: #555555;
+}
+
+.socialmedia {
+  padding: 0;
+}
+
+.socialmedia ul {
+  margin: 0
+}
+
+.socialmedia ul li {
+  display: inline-block;
+}
+
+.socialmedia ul li a {
+
+  color: #9753A0;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.footer ul {
+  text-align: end;
+}
+
+.footer .copyright {
+  background-image: linear-gradient(to right, #3554A6, #9753A0);
+  height: 50px;
+  margin-top: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.footer .copyright p {
+  color: #fff;
+  transform: translateY(50%);
+}
+
+/* end footer section */
